@@ -1,10 +1,11 @@
 <x-guest-layout>
     <x-jet-authentication-card>
-        <a href="{{ route('landing') }}">
+        
             <x-slot name="logo">
-                <x-jet-authentication-card-logo />
+            <a href="{{ route('landing') }}"><img class="img-fluid" src="{{ asset('img/logo.png') }}" alt="" style="width:100px; height: 70px;"></a>
+                
             </x-slot>
-        </a>
+       
 
         <x-jet-validation-errors class="mb-4" />
 
@@ -42,7 +43,7 @@
             <div class="flex items-center justify-end mt-4">
                 @if (Route::has('password.request'))
                 <a class=" underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('password.request') }}">
-                    {{ __('Forgot your password?') }}
+                    {{ __('Forgot password?') }}
                 </a>
                 @endif
 
@@ -57,5 +58,18 @@
 
 
         </form>
+        
+        
+        
     </x-jet-authentication-card>
+    
+   
+
+    <!-- <p class="text-center text-gray-500 text-xs" style="margin-top: -40px;">
+    &copy;2020 Acme Corp. All rights reserved.
+  </p> -->
+
+    
+   
+   
 </x-guest-layout>

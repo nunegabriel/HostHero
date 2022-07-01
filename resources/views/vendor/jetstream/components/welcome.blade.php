@@ -200,7 +200,7 @@
           </div>
 
           <div class="row justify-content-center" style="padding:30px">
-            <div class="col-md-4">
+            <!-- <div class="col-md-4">
               <div class="card text-center">
                 <img class="card-img-top" src="{{ asset('img/salah2.jpg') }}" alt="Card image cap">
                 <div class="card-body">
@@ -212,8 +212,25 @@
                   <a href="{{ route('col8') }}" class="btn btn-primary">Read More</a>
                 </div>
               </div>
-            </div>
+            </div> -->
+
             <div class="col-md-4">
+              <div class="card text-center" style=" height: 35rem;">
+                <img class="card-img-top" src="{{ asset('img/salah2.jpg') }}" alt="Card image cap">
+                <div class="card-body">
+                  <h5><a href="{{ route('col8') }}" class="card-title stretched-link" style="text-decoration: none; color:black;">Captaincy Picks</a></h5>
+
+                  <p class="card-text" style="color:rgb(35, 2, 55)">Lorem, ipsum dolor sit amet consectetur adipisicing
+                    elit.
+                    Labore assumenda aut officiis ipsum accusantium unde
+                    reiciendis eos aspern</p>
+                </div>
+              </div>
+              <br></br>
+            </div>
+
+            
+            <!-- <div class="col-md-4">
               <div class="card text-center">
                 <img class="card-img-top" src="{{ asset('img/Odegaard.jpg') }}" alt="Card image cap">
                 <div class="card-body">
@@ -225,8 +242,21 @@
                   <a href="{{ route('col9') }}" class="btn btn-primary">Read More</a>
                 </div>
               </div>
-            </div>
+            </div> -->
+
             <div class="col-md-4">
+              <div class="card text-center" style=" height: 35rem;">
+                <img class="card-img-top" src="{{ asset('img/Odegaard.jpg') }}" alt="Card image cap">
+                <div class="card-body">
+                  <h5><a class="card-title stretched-link" style="color:rgb(35, 2, 55); text-decoration: none;" href="{{ route('col9') }}">Low-Budget</a></h5>
+                  <p class="card-text" style="color:rgb(35, 2, 55)">Lorem, ipsum dolor sit amet consectetur adipisicing
+                    elit.
+                    Labore assumenda aut officiis ipsum accusantium unde
+                    reiciendis eos aspern</p>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="col-md-4">
               <div class="card text-center">
                 <img class="card-img-top" src="{{ asset('img/Kante.jpg') }}" alt="Card image cap">
                 <div class="card-body">
@@ -238,11 +268,23 @@
                   <a href="{{ route('col10') }}" class="btn btn-primary">Read More</a>
                 </div>
               </div>
+            </div> -->
+            <div class="col-md-4">
+              <div class="card text-center" style=" height: 35rem;">
+                <img class="card-img-top" src="{{ asset('img/Kante.jpg') }}" alt="Card image cap">
+                <div class="card-body">
+                  <h5><a class="card-title stretched-link" style="color:rgb(35, 2, 55); text-decoration: none;" href="{{ route('col10') }}">Injury Updates</a></h5>
+                  <p class="card-text" style="color:rgb(35, 2, 55)">Lorem, ipsum dolor sit amet consectetur adipisicing
+                    elit.
+                    Labore assumenda aut officiis ipsum accusantium unde
+                    reiciendis eos aspern</p>
+                </div>
+              </div>
             </div>
           </div>
 
           <div class="row justify-content-center" style="padding:30px">
-            <div class="col-md-4">
+            <!-- <div class="col-md-4">
               <div class="card text-center">
                 <img class="card-img-top" src="{{ asset('img/cancelo.jpg') }}" alt="Card image cap">
                 <div class="card-body">
@@ -254,11 +296,24 @@
                   <a href="{{ route('col11') }}" class="btn btn-primary">Read More</a>
                 </div>
               </div>
-            </div>
+            </div> -->
+
             <div class="col-md-4">
+              <div class="card text-center" style=" height: 35rem;">
+                <img class="card-img-top" src="{{ asset('img/cancelo.jpg') }}" alt="Card image cap">
+                <div class="card-body">
+                  <h5><a class="card-title stretched-link" style="color:rgb(35, 2, 55); text-decoration: none;" href="{{ route('col11') }}">Clean Sheet Kings</a></h5>
+                  <p class="card-text" style="color:rgb(35, 2, 55)">Lorem, ipsum dolor sit amet consectetur adipisicing
+                    elit.
+                    Labore assumenda aut officiis ipsum accusantium unde
+                    reiciendis eos aspern</p>
+                  <!-- <a href="{{ route('col5') }}" class="btn btn-primary">Read More</a> -->
+                </div>
+              </div>
+            </div>
+            <!-- <div class="col-md-4">
               <div class="card text-center">
                 <img class="card-img-top" src="{{ asset('img/ramsdale.jpg') }}" alt="Card image cap">
-                <!-- width:799px and height:591 -->
                 <div class="card-body">
                   <h5 class="card-title fw-bold" style="color:rgb(3, 14, 48)">Shot Stoppers</h5>
                   <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing
@@ -268,8 +323,23 @@
                   <a href="{{ route('col12') }}" class="btn btn-primary">Read More</a>
                 </div>
               </div>
-            </div>
+            </div> -->
+
             <div class="col-md-4">
+              <div class="card text-center" style=" height: 35rem;">
+                <img class="card-img-top" src="{{ asset('img/ramsdale.jpg') }}" alt="Card image cap">
+                <!-- width:799px and height:591 -->
+                <div class="card-body">
+                  <h5><a class="card-title stretched-link" style="color:rgb(35, 2, 55); text-decoration: none;" href="{{ route('col12') }}">Shot Stoppers</a></h5>
+                  <p class="card-text" style="color:rgb(35, 2, 55)">Lorem, ipsum dolor sit amet consectetur adipisicing
+                    elit.
+                    Labore assumenda aut officiis ipsum accusantium unde
+                    reiciendis eos aspern</p>
+                  <!-- <a href="{{ route('col5') }}" class="btn btn-primary">Read More</a> -->
+                </div>
+              </div>
+            </div>
+            <!-- <div class="col-md-4">
               <div class="card text-center">
                 <img class="card-img-top" src="{{ asset('img/Martinelli.jpg') }}" alt="Card image cap">
                 <div class="card-body">
@@ -279,6 +349,20 @@
                     Labore assumenda aut officiis ipsum accusantium unde
                     reiciendis eos aspern</p>
                   <a href="{{ route('col13') }}" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div> -->
+
+            <div class="col-md-4">
+              <div class="card text-center" style=" height: 35rem;">
+                <img class="card-img-top" src="{{ asset('img/Martinelli.jpg') }}" alt="Card image cap">
+                <div class="card-body">
+                  <h5><a class="card-title stretched-link" style="color:rgb(35, 2, 55); text-decoration: none;" href="{{ route('col13') }}">Players to own</a></h5>
+                  <p class="card-text" style="color:rgb(35, 2, 55)">Lorem, ipsum dolor sit amet consectetur adipisicing
+                    elit.
+                    Labore assumenda aut officiis ipsum accusantium unde
+                    reiciendis eos aspern</p>
+                  <!-- <a href="{{ route('col6') }}" class="btn btn-primary">Read More</a> -->
                 </div>
               </div>
             </div>

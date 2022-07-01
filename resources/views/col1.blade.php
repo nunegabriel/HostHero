@@ -1,7 +1,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
-  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- <title>{{ config('app.name', 'Laravel') }}</title> -->
   <!-- Scripts -->
   <!-- <script src="{{ asset('js/app.js') }}" defer></script> -->
@@ -81,10 +81,7 @@
               <figcaption class="figure-caption">Salah</figcaption>
             </figure>
             <div class="banner-content">
-              <div class="badge badge-danger fs-12 font-weight-bold mb-3">
-                global news
-              </div>
-
+             
               <div class="">
                 <h3 class="fw-bold"> Consectetur quis quis occaecat.</h3>
 
